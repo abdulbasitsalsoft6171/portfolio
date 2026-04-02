@@ -1,78 +1,75 @@
-# Portfolio 
+# Abdul Basit's Portfolio
 
-An open-source, user-friendly, responsive, and accessible portfolio template for developers 🚀⚡
+Personal portfolio website for Abdul Basit, Software Engineer.
 
-Give a star ⭐ if you find it useful. [Visit site &rarr;](https://rohith5-portfolio.netlify.app/)
+This site highlights my work experience, selected projects, technical skills, and contact information.
 
-![Portfolio Template Dark Theme](assets/images/dark.png)
+## Live Site
 
-![Portfolio Template Light Theme](assets/images/light.png)
+[Visit portfolio](https://ossportfolio.netlify.app)
 
+## About
 
+I build secure, scalable software across web and mobile platforms. My work focuses on:
 
-## Table of Contents
+- API performance and reliability
+- Clean backend architecture
+- Stripe payment integrations (Checkout, Subscriptions, Connect, Webhooks)
+- Production deployments on AWS/Ubuntu
 
-1. [Features](#key-features)
-1. [Customization](#customizing-the-template)
-1. [Deploying the Site](#deploying-the-site)
+## Experience Highlights
 
-## Features
+- Delivered up to 30% faster API response times
+- Reduced infrastructure costs by 35%
+- Maintained 99.9% uptime for production systems
+- Built and shipped multiple production features across Laravel, NestJS, React, and React Native stacks
 
-- Fully Mobile responsive.
-- Supports light/dark theme.
-- Built with a11y in mind.
-- Modern design.
-- Multiple sections.
-- Sleek animations.
-- Fast loads.
-- SEO-optimized.
+## Featured Projects
 
-## Customizing the Template
+### 1) CMS Plumber
 
-Please follow these three steps to make an awe-inspiring portfolio of your own.
+- Role-based backend APIs with JWT/RBAC
+- Stripe subscriptions and webhook processing
+- Scheduling and consultation workflows with Zoom and calendar sync
+- Stack: NestJS, TypeScript, MongoDB, Stripe, Swagger
 
-- [Cloning the repository](#cloning-the-repository)
-- [Editing the Template](#editing-the-template)
-- [Deploying the Site](#deploying-the-site)
+### 2) Pets Care Plus
 
-### Cloning the Repository.
+- Multi-role Laravel APIs with secure auth
+- Stripe Connect Express onboarding and payout tracking
+- Compliance workflows via webhook-driven background checks
+- Stack: Laravel, Stripe Connect, Sanctum, Firebase, Webhooks
 
-If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
+### 3) Sky Aesthetic
+
+- React Native app for appointment booking and chart workflows
+- Dynamic chart rendering and submission flows
+- Push notifications and in-app payment handling
+- Stack: React Native, TypeScript, RTK Query, Formik, Firebase Cloud Messaging
+
+## Skills
+
+- Backend: Laravel, NestJS, REST APIs, JWT/RBAC, MySQL, MongoDB
+- Frontend/Mobile: React, Next.js, React Native, JavaScript (ES6+)
+- DevOps: AWS, Ubuntu, Nginx, Git
+- Payments: Stripe Checkout, Subscriptions, Connect, Webhooks
+
+## Contact
+
+- Email: [abbasitmemon1@yahoo.com](mailto:abbasitmemon1@yahoo.com)
+- LinkedIn: [Abdul Basit](https://www.linkedin.com/in/abdul-basit-memon-3683a2124/)
+
+## Run Locally
+
+This project is a static website.
+
+1. Clone the repository
+2. Open `index.html` in your browser
+
+Or serve it locally:
 
 ```bash
-git clone https://github.com/rohith-5/portfolio
+python3 -m http.server 8000
 ```
 
-Alternatively, click on this [link](https://github.com/rohith-5/portfolio/archive/refs/heads/main.zip) to download it.
-
-### Editing the Template
-
-After you get the template please open it in the code editor of your choice.
-You will find a file named `index.html` Open it and follow the guidance inscribed within the comments to customize the template.
-
-**For example:**
-
-```html
-<!-- Update with your name -->
-<title>Abdul Basit's Portfolio</title>
-```
-
-```html
-<div class="header-textbox">
-  <!-- Replace with your name & job title -->
-  <h1 class="h1">Hi, I'm Abdul Basit Software Engineer</h1>
-
-  <!-- Add a small introductory paragraph about yourself -->
-  <p class="header-text">Full Stack Software Engineer with 5+ years of experience building scalable web and mobile applications.</p>
-</div>
-```
-
-**Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
-
-### Deploying the Site
-
-Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio template to the web.
-
-[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
-
-### Contributions are warmly welcomed ❤️.
+Then visit `http://localhost:8000`.
